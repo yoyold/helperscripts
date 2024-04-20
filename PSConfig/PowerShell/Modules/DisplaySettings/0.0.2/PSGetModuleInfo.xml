@@ -1,0 +1,134 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">DisplaySettings</S>
+      <Version N="Version">0.0.2</Version>
+      <S N="Type">Module</S>
+      <S N="Description">get/set display resolution info on windows</S>
+      <S N="Author">jiajun.qian</S>
+      <S N="CompanyName">lust</S>
+      <Nil N="Copyright" />
+      <DT N="PublishedDate">2020-07-21T04:45:06+02:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2022-10-01T20:09:11.8919386+02:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://github.com/lust4life/display-resolution/blob/master/LICENSE</URI>
+      <URI N="ProjectUri">https://github.com/lust4life/display-resolution</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>ScreenResolution</S>
+          <S>DisplayResolution</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Set-DisplayResolution</S>
+                <S>Get-DisplayResolution</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Set-DisplayResolution</S>
+                <S>Get-DisplayResolution</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="7" />
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="7" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="7" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <Nil N="ReleaseNotes" />
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="9">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="description">get/set display resolution info on windows</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">67112</S>
+          <S N="downloadCount">67136</S>
+          <S N="packageSize">5534</S>
+          <S N="published">21.07.2020 04:45:06 +02:00</S>
+          <S N="created">21.07.2020 04:45:06 +02:00</S>
+          <S N="lastUpdated">01.10.2022 15:28:41 +02:00</S>
+          <S N="tags">ScreenResolution DisplayResolution PSModule PSFunction_Set-DisplayResolution PSCommand_Set-DisplayResolution PSFunction_Get-DisplayResolution PSCommand_Get-DisplayResolution PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2022-10-01T15:28:41Z</S>
+          <S N="NormalizedVersion">0.0.2</S>
+          <S N="Authors">jiajun.qian</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">DisplaySettings.nuspec|DisplaySettings.psd1|set-display-resolution.psm1|CDS.cs</S>
+          <S N="GUID">a0b9c4f9-1d76-48a4-8c2a-a29c65dfb1be</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\Lukas\OneDrive\Dokumente\PowerShell\Modules\DisplaySettings\0.0.2</S>
+    </MS>
+  </Obj>
+</Objs>
